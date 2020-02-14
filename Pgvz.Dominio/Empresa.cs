@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Pgvz.Dominio
+﻿namespace Pgvz.Dominio
 {
     public class Empresa
     {
