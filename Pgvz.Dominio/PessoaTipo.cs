@@ -9,6 +9,5 @@ namespace Pgvz.Dominio
         private Cpf cpf;
         private Cnpj cnpj;
 
-
     }
 }

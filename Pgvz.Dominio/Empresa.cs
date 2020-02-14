@@ -36,7 +36,8 @@
         public EntidadeValida AtribuirCNPJ(string cnpj)
         {
             var cnpjValido = new Cnpj(cnpj);
-            if (!cnpjValido.EhValido)
+            
+            if (!Cnpj.ValidarCNPJ(cnpjValido))
                 return new EntidadeValida(false, "CNPJ inválido!");
 
             this.cnpj = cnpjValido;
