@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Pgvz.Dominio
 {
-    public struct TipoPessoa
+    public struct PessoaTipo
     {
         private Cpf cpf;
         private Cnpj cnpj;
