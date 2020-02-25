@@ -8,7 +8,9 @@ namespace Pgvz.Dominio
         private Empresa empresa;
         private string nome;
         private DateTime dataHoraCadastro;
-        //private CPF ou CNPJ
+        private string documento;
         private IList<Telefone> telefones;
+
+
     }
 }
